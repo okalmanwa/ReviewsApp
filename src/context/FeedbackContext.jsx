@@ -1,9 +1,10 @@
 import { createContext, useState } from 'react'
+import feedBackData from '../Data/FeedbackData'
 
 const FeedbackContext = createContext()
 
 export function FeedbackProvider({ children }) {
-    const [feedback, setFeedback] = useState([{ id: 1, text: 'This post is from the context component', rating: 10 }])
+    const [feedback, setFeedback] = useState(feedBackData)
 
     const deleteItem = (id) => {
         if (window.confirm("Are you sure you want to delete the feedback ?")) {

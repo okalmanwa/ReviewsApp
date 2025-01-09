@@ -8,7 +8,7 @@ import Form from './components/Form'
 import AboutPage from './pages/AboutPage'
 import Container from './components/shared/Container'
 import AboutIconLink from './components/AboutIconLink'
-import feedBackData from './Data/FeedbackData'
+
 function App() {
 
   return (
