@@ -1,5 +1,4 @@
 import { createContext, useState } from 'react'
-import feedBackData from '../Data/FeedbackData'
 
 const FeedbackContext = createContext()
 
